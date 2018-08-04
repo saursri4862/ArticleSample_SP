@@ -12,6 +12,13 @@
 		0935426E2114D3FF00B3226C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0935426C2114D3FF00B3226C /* Main.storyboard */; };
 		093542702114D40200B3226C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0935426F2114D40200B3226C /* Assets.xcassets */; };
 		093542732114D40200B3226C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093542712114D40200B3226C /* LaunchScreen.storyboard */; };
+		0959A2422115DB4B0062A1AC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0959A2412115DB4B0062A1AC /* Article.swift */; };
+		0959A2442115DCDD0062A1AC /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0959A2432115DCDD0062A1AC /* ArticleTableViewCell.xib */; };
+		0959A2462115DE6E0062A1AC /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0959A2452115DE6E0062A1AC /* ArticleTableViewCell.swift */; };
+		0959A2482115E3310062A1AC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0959A2472115E3310062A1AC /* APIService.swift */; };
+		0959A24A211602AF0062A1AC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0959A249211602AF0062A1AC /* WebViewController.swift */; };
+		0959A24E211607330062A1AC /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0959A24D211607330062A1AC /* ProgressView.swift */; };
+		1275AFEE2B326A0BA8656111 /* Pods_Saurabh_SP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30ACC6658831348FF2822 /* Pods_Saurabh_SP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		0935426F2114D40200B3226C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		093542722114D40200B3226C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		093542742114D40200B3226C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0959A2412115DB4B0062A1AC /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		0959A2432115DCDD0062A1AC /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		0959A2452115DE6E0062A1AC /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		0959A2472115E3310062A1AC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0959A249211602AF0062A1AC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0959A24D211607330062A1AC /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		0F948F4DB2D7745C3EC2BEE0 /* Pods-Saurabh_SP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saurabh_SP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saurabh_SP/Pods-Saurabh_SP.debug.xcconfig"; sourceTree = "<group>"; };
+		1DD30ACC6658831348FF2822 /* Pods_Saurabh_SP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saurabh_SP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09AC19C60807F15D7C9320D /* Pods-Saurabh_SP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saurabh_SP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saurabh_SP/Pods-Saurabh_SP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1275AFEE2B326A0BA8656111 /* Pods_Saurabh_SP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				093542672114D3FE00B3226C /* Saurabh_SP */,
 				093542662114D3FE00B3226C /* Products */,
+				373499CC3C08112BB2D2748B /* Pods */,
+				E318591AEFBFEF9726DCD2F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				093542682114D3FF00B3226C /* AppDelegate.swift */,
+				0959A2412115DB4B0062A1AC /* Article.swift */,
+				0959A2472115E3310062A1AC /* APIService.swift */,
+				0959A2432115DCDD0062A1AC /* ArticleTableViewCell.xib */,
+				0959A2452115DE6E0062A1AC /* ArticleTableViewCell.swift */,
 				0935426A2114D3FF00B3226C /* ViewController.swift */,
+				0959A24D211607330062A1AC /* ProgressView.swift */,
 				0935426C2114D3FF00B3226C /* Main.storyboard */,
+				0959A249211602AF0062A1AC /* WebViewController.swift */,
 				0935426F2114D40200B3226C /* Assets.xcassets */,
 				093542712114D40200B3226C /* LaunchScreen.storyboard */,
 				093542742114D40200B3226C /* Info.plist */,
 			);
 			path = Saurabh_SP;
+			sourceTree = "<group>";
+		};
+		373499CC3C08112BB2D2748B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F948F4DB2D7745C3EC2BEE0 /* Pods-Saurabh_SP.debug.xcconfig */,
+				D09AC19C60807F15D7C9320D /* Pods-Saurabh_SP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E318591AEFBFEF9726DCD2F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30ACC6658831348FF2822 /* Pods_Saurabh_SP.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 093542772114D40200B3226C /* Build configuration list for PBXNativeTarget "Saurabh_SP" */;
 			buildPhases = (
+				DD5DB8B72C9E1B8557531CBB /* [CP] Check Pods Manifest.lock */,
 				093542612114D3FE00B3226C /* Sources */,
 				093542622114D3FE00B3226C /* Frameworks */,
 				093542632114D3FE00B3226C /* Resources */,
+				DAF0992BFC7D9B18CD65CB98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0959A2442115DCDD0062A1AC /* ArticleTableViewCell.xib in Resources */,
 				093542732114D40200B3226C /* LaunchScreen.storyboard in Resources */,
 				093542702114D40200B3226C /* Assets.xcassets in Resources */,
 				0935426E2114D3FF00B3226C /* Main.storyboard in Resources */,
@@ -130,13 +175,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DAF0992BFC7D9B18CD65CB98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Saurabh_SP/Pods-Saurabh_SP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saurabh_SP/Pods-Saurabh_SP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5DB8B72C9E1B8557531CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saurabh_SP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		093542612114D3FE00B3226C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0959A2462115DE6E0062A1AC /* ArticleTableViewCell.swift in Sources */,
+				0959A24A211602AF0062A1AC /* WebViewController.swift in Sources */,
+				0959A2482115E3310062A1AC /* APIService.swift in Sources */,
 				0935426B2114D3FF00B3226C /* ViewController.swift in Sources */,
+				0959A24E211607330062A1AC /* ProgressView.swift in Sources */,
 				093542692114D3FF00B3226C /* AppDelegate.swift in Sources */,
+				0959A2422115DB4B0062A1AC /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +367,7 @@
 		};
 		093542782114D40200B3226C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F948F4DB2D7745C3EC2BEE0 /* Pods-Saurabh_SP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +386,7 @@
 		};
 		093542792114D40200B3226C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09AC19C60807F15D7C9320D /* Pods-Saurabh_SP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
